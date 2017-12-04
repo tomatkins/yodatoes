@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains yoda_toes.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function yoda_toes_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the yoda_toes module.
+    case 'help.page.yoda_toes':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module displays daily yoda toe count') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function yoda_toes_theme() {
+  return [
+    'yoda_toes' => [
+      'render element' => 'children',
+    ],
+  ];
+}

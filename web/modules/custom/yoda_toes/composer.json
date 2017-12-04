@@ -1,0 +1,14 @@
+{
+  "name": "drupal/yoda_toes",
+  "type": "drupal-module",
+  "description": "Module displays daily yoda toe count",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/yoda_toes",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/yoda_toes",
+    "source": "http://cgit.drupalcode.org/yoda_toes"
+  },
+  "require": { }
+}

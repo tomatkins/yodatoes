@@ -1,0 +1,5 @@
+name: yoda toes
+type: module
+description: Module displays daily yoda toe count
+core: 8.x
+package: Custom
